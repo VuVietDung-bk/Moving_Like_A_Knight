@@ -27,8 +27,8 @@ public class WindowGame {
 	private LevelReader lvlReader;
 	private MusicPlayer musicPlayer;
 	private CustomLevel customLevel;
-	private String theme;
-	private String horseyTheme;
+	private String theme = "";
+	private String horseyTheme = "";
 	
 	private int menuVolume = -30, gameVolume = -30;
 
